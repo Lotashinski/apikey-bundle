@@ -1,0 +1,32 @@
+{
+  "name": "lotashinski/apikey-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Yanka Kupala State University of Grodno",
+      "email": "soft@grsu.by"
+    },
+    {
+      "name": "Alexander Lotashinsky",
+      "email": "allotashinsky@yandex.by",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.2",
+    "symfony/framework-bundle": "6.0.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Grsu\\ApiKeyBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
